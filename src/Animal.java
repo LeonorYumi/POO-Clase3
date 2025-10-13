@@ -18,7 +18,7 @@ public class Animal {
         System.out.println("Nombre: " + nombre);
         System.out.println("Edad: " + edad + " años");
     }
-    //2 metodo propio
+    //2 metodo propio y verificacion de edad
     public void verificar(){
         if (edad <3){
             System.out.println(nombre + " es un cachorro");
